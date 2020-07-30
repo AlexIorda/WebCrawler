@@ -8,4 +8,4 @@ The word 'recursive' is not accurate, because this script uses the BFS algorithm
 
 ## Absolute vs Relative URLs
 
-There are two implementations in this script: one that only searches for absolute URLs and one that searches for both absolute URLs and URLs relative to the current path. Although the second implementation might seem more complete, it reaches a lot of useless links, many of them return an HTTP error, and as a consequence it is much slower than the first implementation. Therefore, the default implementation is the one that displays the Absolute URLs. 
+There are two implementations in this script: one that only searches for absolute URLs and one that searches for both absolute URLs and URLs relative to the current path. Although the second implementation might seem more complete, it reaches a lot of useless links, many of them return an HTTP error, and as a consequence it is much slower than the first implementation. Therefore, the default implementation is the one that displays the absolute URLs. 
